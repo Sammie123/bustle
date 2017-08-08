@@ -1,4 +1,5 @@
 <div class="thumbnail">
+  {{#link-to 'article' article.id}}
   <div class="row">
     <div class="col-md-6">
       <img height=100% width=100% id="harryPotter" src={{article.image}}>
@@ -7,4 +8,5 @@
       {{article.content}}{{article.author}}
     </div>
   </div>
+  {{/link-to}}
 </div>
